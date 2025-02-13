@@ -1,0 +1,35 @@
+chmod [opciones] permisos archivo
+
+Notación octal
+Los permisos se representan con tres números, uno para el usuario, otro para el grupo y otro para los otros. Cada número es una suma de los siguientes valores:
+
+4: lectura (r)
+
+2: escritura (w)
+
+1: ejecución (x)
+
+Por ejemplo:
+
+7 (4 + 2 + 1) = rwx
+
+6 (4 + 2) = rw-
+
+5 (4 + 1) = r-x
+
+4 = r--
+
+0 = ---
+
+Notación simbólica
+La notación simbólica usa letras para especificar los permisos y la entidad:
+
+u = usuario (owner)
+
+g = grupo
+
+o = otros
+
+a = todos (user, group, others)
+
+Puedes usar + para añadir, - para quitar, y = para asignar permisos.
