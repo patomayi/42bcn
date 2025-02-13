@@ -1,0 +1,15 @@
+crear repositorio en GitHub
+git init
+git status
+git add .
+git commit -m "nnnnnnnnnn"
+
+git config --global user.email xxxxx@xxxxx.com
+git config --global user.name xxxxx@xxxxx.com
+
+repetir:
+git commit -m "nnnnnnnnnn"
+git Branch -M main
+git remote add origin https://github.com/patomayi/patomayi.git
+git push -u origin main
+
